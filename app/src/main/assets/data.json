@@ -1,0 +1,18 @@
+[
+  { "title": "Android",
+    "description": "Description of item 1",
+    "image": "android"
+  },
+  { "title": "Item 2",
+    "description": "Description of item 2",
+    "image": "gamification"
+  },
+  { "title": "Item 3",
+    "description": "Description of item 3",
+    "image": "gestion"
+  },
+  { "title": "Item 4",
+    "description": "Description of item 3",
+    "image": "ios"
+  }
+]
