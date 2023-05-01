@@ -1,5 +1,6 @@
 package com.lubosparacev.recuperacionlubos;
 
+import android.content.Context;
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -22,9 +23,11 @@ public class MainActivity extends AppCompatActivity {
         DataSource dataSource = new DataSource(this);
         List<Item> items = dataSource.getItems();
 
+        Context context = this;
+
         recyclerView = findViewById(R.id.recycler_view);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
-        myAdapter = new MyAdapter(items);
+        myAdapter = new MyAdapter(context, items);
         recyclerView.setAdapter(myAdapter);
     }
 

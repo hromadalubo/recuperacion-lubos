@@ -1,8 +1,7 @@
 package com.lubosparacev.recuperacionlubos;
 
 import android.content.Context;
-import android.graphics.drawable.Drawable;
-import android.util.Log;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,17 +11,17 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import java.io.IOException;
-import java.io.InputStream;
 import java.util.List;
 
 // Adapter class
 public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
 
     private List<Item> itemList;
+    private Context context;
 
-    public MyAdapter(List<Item> itemList) {
+    public MyAdapter(Context context, List<Item> itemList) {
         this.itemList = itemList;
+        this.context = context;
     }
 
     @NonNull
@@ -40,21 +39,27 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
 
         int imageResource = holder.itemView.getContext().getResources().getIdentifier(item.getImage(), "drawable", holder.itemView.getContext().getPackageName());
         holder.imageView.setImageResource(imageResource);
+
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent = new Intent(context, DetailActivity.class);
+
+                intent.putExtra("title", item.getTitle());
+                intent.putExtra("description", item.getDescription());
+
+                int imageResource = context.getResources().getIdentifier(item.getImage(), "drawable", context.getPackageName());
+                intent.putExtra("imageResourceId", imageResource);
+
+                context.startActivity(intent);
+            }
+        });
     }
 
     @Override
     public int getItemCount() {
         return itemList.size();
-    }
-
-    private Drawable getImageFromAssets(String image, Context context) {
-        try {
-            InputStream ims = context.getAssets().open(image);
-            return Drawable.createFromStream(ims, image);
-        } catch (IOException e) {
-            Log.e("MyAdapter", "Error while trying to get image from assets: " + e.getMessage());
-            return null;
-        }
     }
 
     // View holder class
