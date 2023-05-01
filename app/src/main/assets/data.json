@@ -1,18 +1,130 @@
 [
-  { "title": "Android",
-    "description": "Description of item 1",
+  { "title": "Introducción a la programación de apps Android",
+    "description": [
+      "Introducción a la programación",
+      "Principios básicos de programación",
+      "Conceptos de programación nivel intermedio",
+      "Introducción a Android",
+      "Gestión de datos e interfaces avanzadas",
+      "Servicios Web",
+      "Android avanzado"
+    ],
     "image": "android"
   },
-  { "title": "Item 2",
-    "description": "Description of item 2",
+  { "title": "Gamificación y diseño de mecánicas de juego",
+    "description": [
+      "Fundamentos básicos de la gamificación",
+      "Tecnología, software componentes y mecánicas de uso en la gamificación"
+    ],
     "image": "gamification"
   },
-  { "title": "Item 3",
-    "description": "Description of item 3",
+  { "title": "Sistemas de gestión empresarial",
+    "description": [
+      "Metodologías ágiles",
+      "Scrum",
+      "Gestión de proyectos",
+      "Control de versiones",
+      "Git"
+    ],
     "image": "gestion"
   },
-  { "title": "Item 4",
-    "description": "Description of item 3",
+  { "title": "Programación Multimedia para Dispositivos iOS",
+    "description": [
+      "Introducción a la programación para iOS",
+      "Estructura canónica de un proyecto iOS y calidad de software",
+      "Arquitectura en iOS: MVC, ViewControllers & Views",
+      "Interfaces de usuario avanzados",
+      "Multitarea y notificaciones",
+      "Acceso a red y persistencia de datos",
+      "Swift UI",
+      "Geolocalización y Multimedia"
+    ],
     "image": "ios"
+  },
+  { "title": "Sistemas informáticos. Internet de las cosas IoT",
+    "description": [
+      "Sistemas informáticos de comunicación",
+      "Linux",
+      "IoT - Internet of Things"
+    ],
+    "image": "iot"
+  },
+  { "title": "Diseño, modelado y animación 3D",
+    "description": [
+      "Interface 3ds Max",
+      "Técnicas de modelado 3D"
+    ],
+    "image": "m3_3d"
+  },
+  { "title": "Formación y orientación laboral",
+    "description": "",
+    "image": "m5_formacion_laboral"
+  },
+  { "title": "Lenguajes de marcas y sistemas de gestión de información: Web y HTML",
+    "description": [
+      "Introducción al diseño web",
+      "Elementos, propiedades y maquetación",
+      "Publicación y formularios",
+      "Contenidos externos y Responsive Web Design",
+      "Scripts y Bootstrap"
+    ],
+    "image": "m6_web"
+  },
+  { "title": "Bases de datos",
+    "description": [
+      "Bases de datos SQL",
+      "Relaciones y Consultas avanzadas"
+    ],
+    "image": "m7_bases_de_datos"
+  },
+  { "title": "Empresa e iniciativa emprendedora",
+    "description": "Emprendimiento y creación de la empresa",
+    "image": "m10_empresa"
+  },
+  { "title": "Accesso a datos",
+    "description": [
+      "Spring Boot",
+      "Jhipster",
+      "AWS y Sistemas"
+    ],
+    "image": "m11_acesso_a_datos"
+  },
+  { "title": "Programación de servicios y procesos",
+    "description": "Angular",
+    "image": "m12_servicios_procesos"
+  },
+  { "title": "Proyecto de desarrollo de aplicaciones multiplataforma",
+    "description": [
+      "Operativa",
+      "Informe de funcionalidades y requerimientos",
+      "Product Backlog",
+      "Sprint I y II"
+    ],
+    "image": "m16_proyecto"
+  },
+  { "title": "Clases Grabadas Antiguas",
+    "description": "",
+    "image": "streaming"
+  },
+  { "title": "Desarrollo de interfaces (UI) y Experiencia de usuario (UX)",
+    "description": [
+      "Investigación de Producto y Usuario",
+      "Diseño UX",
+      "Diseño UI",
+      "El prototipo"
+    ],
+    "image": "ui_ux"
+  },
+  { "title": "Entornos de desarrollo. Unity",
+    "description": [
+      "Introducción a Unity",
+      "C# en Unity",
+      "Programación C#",
+      "PathFinding y Animación",
+      "UI, Sonidos",
+      "Iluminación, Shaders y Partículas",
+      "AR con Vuforia"
+    ],
+    "image": "unity"
   }
 ]
