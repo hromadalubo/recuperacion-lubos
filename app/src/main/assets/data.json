@@ -1,130 +1,30 @@
 [
-  { "title": "Introducción a la programación de apps Android",
-    "description": [
-      "Introducción a la programación",
-      "Principios básicos de programación",
-      "Conceptos de programación nivel intermedio",
-      "Introducción a Android",
-      "Gestión de datos e interfaces avanzadas",
-      "Servicios Web",
-      "Android avanzado"
-    ],
-    "image": "android"
+  { "title": "CURSOS DE ANIMACIÓN 3D Y VIDEOJUEGOS",
+    "description": "Transforma tus ideas en personajes, espacios y mundos virtuales. Potencia tu imaginación aprendiendo a utilizar las tecnologías y herramientas más utilizadas de animación 3D con las que conseguir resultados profesionales.",
+    "image": "threed"
   },
-  { "title": "Gamificación y diseño de mecánicas de juego",
-    "description": [
-      "Fundamentos básicos de la gamificación",
-      "Tecnología, software componentes y mecánicas de uso en la gamificación"
-    ],
-    "image": "gamification"
+  { "title": "CURSOS DE CINE Y TELEVISIÓN",
+    "description": "Adéntrate en las tareas que desempeñan los profesionales del cine y la televisión. Conoce los flujos de trabajo antes, durante y después de un rodaje audiovisual y aprende a utilizar todos los recursos en función del proyecto.",
+    "image": "cine"
   },
-  { "title": "Sistemas de gestión empresarial",
-    "description": [
-      "Metodologías ágiles",
-      "Scrum",
-      "Gestión de proyectos",
-      "Control de versiones",
-      "Git"
-    ],
-    "image": "gestion"
+  { "title": "CURSOS DE DISEÑO GRÁFICO Y WEB",
+    "description": "Desarrolla tu creatividad en trabajos reales de diseño gráfico y web. Crea proyectos para cualquier soporte físico, una campaña publicitaria y una página web o una tienda online. Además, avanzarás a partir de workshops prácticos.",
+    "image": "diseno"
   },
-  { "title": "Programación Multimedia para Dispositivos iOS",
-    "description": [
-      "Introducción a la programación para iOS",
-      "Estructura canónica de un proyecto iOS y calidad de software",
-      "Arquitectura en iOS: MVC, ViewControllers & Views",
-      "Interfaces de usuario avanzados",
-      "Multitarea y notificaciones",
-      "Acceso a red y persistencia de datos",
-      "Swift UI",
-      "Geolocalización y Multimedia"
-    ],
-    "image": "ios"
+  { "title": "CURSOS DE FOTOGRAFÍA PROFESIONAL E ILUMINACIÓN",
+    "description": "Especialízate en el mundo de la imagen y captura, edita y postproduce fotografías aprendiendo a utilizar las técnicas y las herramientas más utilizadas a nivel profesional. Maneja el material de iluminación y adéntrate en la distintas especialidades.",
+    "image": "foto"
   },
-  { "title": "Sistemas informáticos. Internet de las cosas IoT",
-    "description": [
-      "Sistemas informáticos de comunicación",
-      "Linux",
-      "IoT - Internet of Things"
-    ],
-    "image": "iot"
+  { "title": "CURSOS DE SONIDO Y MÚSICA",
+    "description": "Conviértete en un profesional en la industria del sonido. Graba música en estudio, sonoriza eventos y conciertos en directo. Compón tus propias creaciones para publicidad, cine y televisión y aprende a postproducir con diferentes sof†wares.",
+    "image": "sonido"
   },
-  { "title": "Diseño, modelado y animación 3D",
-    "description": [
-      "Interface 3ds Max",
-      "Técnicas de modelado 3D"
-    ],
-    "image": "m3_3d"
+  { "title": "CURSOS DE VERANO MADRID",
+    "description": "¿Quieres aprovechar el tiempo en verano? Conoce los cursos de verano intensivos de cine, televisión, música, sonido, fotografía, animación 3D y videojuegos que hemos creado para ti. Una amplia variedad para que sigas ampliando tus conocimientos y potenciando tu creatividad para crecer como profesional del sector.",
+    "image": "verano"
   },
-  { "title": "Formación y orientación laboral",
-    "description": "",
-    "image": "m5_formacion_laboral"
-  },
-  { "title": "Lenguajes de marcas y sistemas de gestión de información: Web y HTML",
-    "description": [
-      "Introducción al diseño web",
-      "Elementos, propiedades y maquetación",
-      "Publicación y formularios",
-      "Contenidos externos y Responsive Web Design",
-      "Scripts y Bootstrap"
-    ],
-    "image": "m6_web"
-  },
-  { "title": "Bases de datos",
-    "description": [
-      "Bases de datos SQL",
-      "Relaciones y Consultas avanzadas"
-    ],
-    "image": "m7_bases_de_datos"
-  },
-  { "title": "Empresa e iniciativa emprendedora",
-    "description": "Emprendimiento y creación de la empresa",
-    "image": "m10_empresa"
-  },
-  { "title": "Accesso a datos",
-    "description": [
-      "Spring Boot",
-      "Jhipster",
-      "AWS y Sistemas"
-    ],
-    "image": "m11_acesso_a_datos"
-  },
-  { "title": "Programación de servicios y procesos",
-    "description": "Angular",
-    "image": "m12_servicios_procesos"
-  },
-  { "title": "Proyecto de desarrollo de aplicaciones multiplataforma",
-    "description": [
-      "Operativa",
-      "Informe de funcionalidades y requerimientos",
-      "Product Backlog",
-      "Sprint I y II"
-    ],
-    "image": "m16_proyecto"
-  },
-  { "title": "Clases Grabadas Antiguas",
-    "description": "",
-    "image": "streaming"
-  },
-  { "title": "Desarrollo de interfaces (UI) y Experiencia de usuario (UX)",
-    "description": [
-      "Investigación de Producto y Usuario",
-      "Diseño UX",
-      "Diseño UI",
-      "El prototipo"
-    ],
-    "image": "ui_ux"
-  },
-  { "title": "Entornos de desarrollo. Unity",
-    "description": [
-      "Introducción a Unity",
-      "C# en Unity",
-      "Programación C#",
-      "PathFinding y Animación",
-      "UI, Sonidos",
-      "Iluminación, Shaders y Partículas",
-      "AR con Vuforia"
-    ],
-    "image": "unity"
+  { "title": "CURSOS DE NUEVAS TECNOLOGÍAS",
+    "description": "Con los cursos de nuevas tecnologías de CEV aprenderás todo lo necesario sobre Big Data, Inteligencia Artificial y programación. Ven a conocer nuestra escuela.",
+    "image": "nuevas"
   }
 ]
