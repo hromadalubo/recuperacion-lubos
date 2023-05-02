@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-recuperacionlubos-dev-135030-authRole",
+      "UnauthRoleArn": "arn:aws:iam::281179655175:role/amplify-recuperacionlubos-dev-135030-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::281179655175:role/amplify-recuperacionlubos-dev-135030-authRole",
+      "Region": "eu-north-1",
+      "DeploymentBucketName": "amplify-recuperacionlubos-dev-135030-deployment",
+      "UnauthRoleName": "amplify-recuperacionlubos-dev-135030-unauthRole",
+      "StackName": "amplify-recuperacionlubos-dev-135030",
+      "StackId": "arn:aws:cloudformation:eu-north-1:281179655175:stack/amplify-recuperacionlubos-dev-135030/8bc83be0-e8df-11ed-8bd8-0a61d53f44fa",
+      "AmplifyAppId": "d3dk3t8bwicfb6"
+    },
+    "categories": {
+      "auth": {
+        "recuperacionlubosc9507793": {}
+      }
+    }
+  }
+}

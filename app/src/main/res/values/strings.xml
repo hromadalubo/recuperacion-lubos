@@ -1,3 +1,17 @@
 <resources>
-    <string name="app_name">Recuperacion Lubos</string>
+    <string name="app_name">Recuperación Lubos</string>
+    <!-- SIGN UP -->
+    <string name="username">Usuario</string>
+    <string name="email">Correo electrónico</string>
+    <string name="password">Contraseña</string>
+    <string name="registerbtn">Registrar</string>
+    <string name="goToSignIn">¿Ya tienes una cuenta? Pincha aquí.</string>
+    <!-- VERIFY ACCOUNT -->
+    <string name="code">Código de validación</string>
+    <string name="verifybtn">Validar</string>
+    <!-- SIGN IN -->
+    <string name="signInBtn">Entrar</string>
+    <string name="goToSignUp">¿No tienes cuenta? Regístrate aquí.</string>
+    <!-- SIGN OUT -->
+    <string name="signOutBtn">Salir</string>
 </resources>
