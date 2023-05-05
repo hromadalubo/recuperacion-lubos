@@ -59,8 +59,10 @@ public class AmplifyCognito {
                 loadLogin();
             } else if (signOutResult instanceof AWSCognitoAuthSignOutResult.PartialSignOut) {
                 // handle partial sign out
+
             } else if (signOutResult instanceof AWSCognitoAuthSignOutResult.FailedSignOut) {
                 // handle failed sign out
+
             }
         });
     }
@@ -84,7 +86,7 @@ public class AmplifyCognito {
         context.startActivity(intent);
     }
 
-    private void loadHome(String username) {
+    public void loadHome(String username) {
         Intent intent = new Intent(context, MainActivity.class);
         intent.putExtra("username", username);
         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
